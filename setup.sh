@@ -1,17 +1,17 @@
 #!/usr/bin/bash
 clear
-figlet -c "Team Venom"
+figlet -c "Team anonymous"
 echo " "
 read -p "Do you want to continue installing setup? [y/n] : " answer
 case $answer in
 	y)
 		clear
-		figlet -c "Team Venom"
+		figlet -c "Team anonymous"
 		apt-get update
 		apt-get upgrade
 		apt-get install figlet
 		apt-get install git
-		bash venom.sh
+		bash Tool--Vip.sh
 		;;
 	n)
 		echo " "
